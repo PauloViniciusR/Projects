@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    
+   <form>
+        <fieldset>
+            <legend>Formulário</legend>
+            <h1>Insira seus dados</h1>
+            <div>
+                <input type="text" value="" placeholder="Digite seu nome">
+            </div>
+
+            <div>
+                <input type="email" value="" placeholder="Digite seu email">
+            </div>
+
+            <div>
+                <select> 
+                    <option disabled selected>Qual sua idade?</option>
+                    <option value="-18">-18</option>
+                    <option value="18-25">18-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="">+35</option>
+                </select>
+            </div>
+    
+
+            <h2>Qual sua área:</h2>
+
+                <div class="input">
+                    <div>
+                        <input type="radio" name= "area" value="Front-end"> <span>Front-end</span>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="area" value="Back-end"> <span>Back-end</span>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="area" value="Fullstack"> <span>Fullstack</span>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="area"  value="DevOps"> <span>DevOps</span>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="arealinguagem"  value="Mobile"> <span>Mobile</span>
+                    </div>
+
+                </div>
+
+            <h2>Qual sua linguagem de programação:</h2>
+                <div class="input">
+                    <div>
+                        <input type="checkbox" name="linguagem[]" id="Java"> <span>Java</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="linguagem[]" id="JavaScript"> <span>JavaScript</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="linguagem[]" id="C"> <span>C</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="linguagem[]" id="Phyton"> <span>Phyton</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="linguagem[]" id="PHP">PHP<span></span>
+                    </div>
+
+                </div>
+
+               <div>
+                    <input type="button" name="acao" value="Enviar!">
+               </div>
+
+
+        </fieldset>
+   </form>
+
+
+
+  
+
+</body>
+</html>

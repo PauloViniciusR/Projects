@@ -1,0 +1,793 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	padding:20px 2% 35px 2%;
+	height: 130px;
+}
+
+header div.logo{
+	float: left;
+}
+
+header nav.desktop{
+	float: right;
+	position: relative;
+	top:40px;
+}
+
+nav.mobile{
+	margin-top: 40px;
+	float: right;
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+	cursor: pointer;
+	background-image: url(../imagens/icon_menu.png);
+	display: none;
+}
+
+nav.mobile ul{
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 110px;
+	z-index: 999;
+	border-bottom: 4px solid #EB2D2D;
+	position: absolute;
+	text-align: center;
+	background-color: white;
+}
+
+nav.mobile li{
+	font-size: 23px;
+	padding: 20px 0;
+	font-style: italic;
+}
+
+nav.mobile li a{
+	color: black;
+	text-decoration: none;
+}
+
+header nav.desktop ul{
+	list-style-type: none;
+}
+
+header nav.desktop ul li{
+	float: left;
+	font-size: 23px;
+	padding:0 30px;
+}
+
+header nav.desktop a{
+    color: black;
+    text-decoration: none;
+}
+
+section.banner{
+	width: 100%;
+	height: 650px;
+	background-color: black;
+	background-image: url('../imagens/bg.jpg');
+	background-size: contain;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+section .text-banner{
+	padding: 100px;
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+
+section .text-banner-single{
+	width: 314px;
+	height: 50px;
+	font-style: italic;
+	margin-top: 15px;
+	padding: 12px 30px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 23px;
+	background-image: url(../imagens/box-text.png);
+	background-size: 100% 100%;
+}
+
+section .text-banner .text-banner-single:nth-of-type(2){
+	width: 200px;
+	height: 50px;
+	font-size: 23px;
+	position: relative;
+	left: -10px;
+}
+
+section .text-banner .text-banner-single:nth-of-type(3){
+	width: 170px;
+	height: 50px;
+	font-size: 23px;
+	position: relative;
+	left: -20px;	
+}
+
+section .text-banner .text-banner-single:nth-of-type(4){
+	width: 320px;
+	height: 50px;
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+	position: relative;
+	left: -30px;
+	background-image: url(../imagens/box-white-text.png);
+}
+
+section.veiculos-destaques{
+	padding: 90px 2%;
+}
+
+section.veiculos-destaques .container{
+	max-width: 1000px;
+	padding: 40px 0;
+}
+
+section .line-titulo{
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+section .linha1{
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	top: 15px;
+	background: rgba(0, 0, 0, 0.574);
+}
+
+section.veiculos-destaques .line-titulo h2{
+	position: relative;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 27px;
+	padding: 0 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+section .vitrine-destaques{
+	float: left;
+	width: 33.3%;
+}
+
+section .vitrine-destaques .carro-img{
+	width: 100%;
+	padding-top: 100%;
+	background-size: 100% 100%;
+	border: 6px solid white;
+}
+
+section .vitrine-destaques h2{
+	padding-left: 8px;
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+}
+
+section .vitrine-destaques p{
+	padding-left: 8px;
+	color: #353535;
+	font-size: 15px;
+	font-style: italic;
+	padding-top: 8px;
+}
+
+section .botao1{
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	background-color: #EB2D2D;
+	text-decoration: none;
+	border-bottom: 5px solid #B21E1E;
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	width: 150px;
+}
+
+section .vitrine-destaques a{
+	margin-left: 8px;
+	margin-top: 10px;
+}
+
+section.servicos-descricao{
+	display: flex;
+}
+
+section .half1{	
+	width: 50%;
+	text-align: right;
+	padding: 90px 0;
+	background: #242424;
+	color: white;
+}
+
+section .half1-wraper{
+	padding-right: 100px;
+	display: inline-block;
+	text-align: left;
+}
+
+section .half1-wraper h2{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 32px;
+}
+
+section .half1-wraper ul{
+	display: inline-block;
+	list-style-position: inside;
+	margin-top: 20px;
+}
+
+section .half1-wraper li{
+	margin-left: 15px;
+}
+
+section .half1-wraper a{
+	margin-left: 40px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+section .half2{
+	width: 50%;
+	padding: 90px 100px;
+	background: #EB2D2D;
+	color: white;
+}
+
+section .half2 h2{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 32px;
+}
+
+section .half2 .depoimento-single{
+	margin-top: 19px;
+}
+
+section .half2 .depoimento-single p{
+	font-size: 20px;
+}
+
+section .navigation{
+	float: left;
+	width: 100%;
+	max-width: 700px;
+	margin-top: 30px;
+}
+
+section .arrows{
+	float: left;
+}
+
+section .navigation img{
+	cursor: pointer;
+	margin: 0 20px;
+}
+
+section .nome-depoimento{
+	float: right;
+	color: rgba(255, 255, 255, 0.471);
+	font-size: 23px;
+}
+
+section.contato{
+	padding: 60px 2%;
+}
+
+section.contato form{
+	max-width: 600px;
+	
+}
+
+section	.contato .input-wraper{
+	float: left;
+	padding: 10px;
+}
+
+section.contato input[type=text]{
+	width: 100%;
+}
+
+section.contato .line-titulo h2{
+	position: relative;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 27px;
+	padding: 0 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+section.contato form{
+	max-width: 600px;
+	margin: 50px auto;
+}
+
+section.contato .input-wraper{
+	float: left;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+section.contato input[type=text], 
+input[type=email],input[type=tel]{
+	width: 100%;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+
+section.contato textarea{
+	width: 100%;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	height: 120px;
+	padding: 8px;
+	resize: none;
+}
+
+section.contato .input-wraper:nth-of-type(5){
+	text-align: center;
+}
+
+section.contato input[type=submit]{
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	background-color: #EB2D2D;
+	text-decoration: none;
+	border-bottom: 5px solid #B21E1E;
+	color: white;
+	font-size: 16px;
+	font-style: italic;
+	width: 150px;
+	cursor: pointer;
+}
+
+section .w100{
+	width: 100%;
+}
+
+section .w50{
+	width: 50%;
+}
+
+footer{
+	padding: 40px 2%;
+	background: #252525;
+}
+
+footer nav ul{
+	list-style-type: none;
+}
+
+footer nav ul li{
+	float: left;
+}
+
+footer nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 35px;
+	font-size: 19px;
+	font-style: italic;
+}
+
+footer p{
+	float: right;
+	color: white;
+	font-size: 19px;
+	font-style: italic;
+}
+
+section.venda{
+	padding: 90px 0;
+	min-height: 90%;
+}
+
+section.venda .line-titulo h2{
+	position: relative;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 27px;
+	padding: 0 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+section.venda .content-venda{
+	margin: 40px 2%;
+}
+
+section.venda .side-bar{
+	float: left;
+	width: 30%;
+}
+
+section.venda .search1{
+	width: 80%;
+}
+
+section.venda .search1 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+section.venda .barra-preco{
+	width: 100%;
+	height: 20px;
+	margin-top: 8px;
+	background: white;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+section.venda .barra-preco-fill{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30%;
+	height: 20px;
+	border-radius: 20px;
+	background: linear-gradient(to bottom, rgb(255,255,255), rgb(200,200,200));
+}
+
+section.venda .pointer-barra{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	left: calc(30% - 13px);
+	top: -2px;
+	cursor: pointer;
+	border-radius: 8px;
+	background: linear-gradient(to bottom, rgb(255,255,255), rgb(180,180,180));
+	border: 1px solid #777;
+}
+
+section.venda .valor-pesquisa{
+	margin-top: 8px;
+}
+
+section.venda .valor-pesquisa p{
+	font-size: 15px;
+	color: black;
+}
+
+section.venda .valor-pesquisa p:nth-of-type(1){
+	float: left;
+}
+
+section.venda .valor-pesquisa p:nth-of-type(2){
+	float: right;
+}
+
+section.venda .search2{
+	margin-top: 40px;
+}
+
+section.venda .search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+section.venda .form-venda-wraper{
+	margin-top: 10px;
+}
+
+section.venda input[type=checkbox]{
+	display: none;
+}
+
+section.venda label{
+	position: relative;
+	width: 15px;
+	height: 15px;	
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+section.venda .form-venda-wraper input[type=checkbox]:checked + label > .circle{
+	display: block;
+}
+
+section.venda .circle{
+	width: 8px;
+	height: 8px;
+	display: none;
+	border-radius: 4px;
+	background: black;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}
+
+section.venda span{
+	padding: 0 10px;
+	display: inline-block;
+	vertical-align: top;
+}	
+
+section.venda .vitrine-venda{
+	overflow: hidden;
+	float: left;
+	width: 70%;
+}
+
+section.venda .vitrine-destaques{
+	margin-top: 25px;
+}
+
+section	.venda-single{
+	padding: 0 2%;
+}
+
+section.venda-single .line-titulo h2{
+	position: relative;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 26px;
+	padding: 0 20px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+section.venda-single .container{
+	padding: 40px 0;
+	max-width: 1280px;
+}
+ 
+section .info-veiculo{
+	float: left;
+	width: 60%;
+}
+
+section .foto-destaque{
+	width: 100%;
+	padding-top: 60%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+section .descricao-veiculo{
+	float: left;
+	width: 40%;
+	padding: 20px;
+}
+
+section .descricao-veiculo p{
+	margin-top: 25px;
+	max-width: 360px;
+}
+
+section .descricao-veiculo a{
+	margin-top: 25px;
+}
+
+section .nav-galeria{
+	width: 100%;
+	padding: 15px;
+	margin-top: 15px;
+	overflow: scroll;
+}
+
+section .nav-galeria-wraper{
+	width: 200%;
+}		
+
+section .mini-img{
+	float: left;
+	border: 4px solid white;
+	background-position: center;
+	background-size: cover;
+	padding-top:calc(33.3% * (100 / 200) * 0.6);
+	width:calc(33.3% * (100 / 200));
+}
+
+
+@media screen and (max-width: 1280px){
+	section.banner{
+		background-size: 90% auto;
+		background-position: 200% 100%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	section.banner{
+		background-size: cover;
+		background-position: center;
+		height: 70vw;
+		min-height: 500px;
+	}
+}
+
+@media screen and (max-width:1000px){
+	section .half1-wraper{
+		padding: 30px 5%;
+	}
+	
+}
+
+@media screen and (max-width:907px){
+	section .nome-depoimento{
+		display: inline-block;
+		position: absolute;
+	}
+}
+
+@media screen and (max-width:870px){
+	section.servicos-descricao{
+		flex-direction: column;
+	}
+
+	section .half1{
+		width: 100%;
+		text-align: center;
+		padding: 80px 100px;
+	}
+
+	section .half1-wraper{
+		padding-right: 0;
+	}
+
+	section .half1-wraper a{
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	section .half2{
+		width: 100%;
+		text-align: center;
+	}
+
+	section .half2 h2{
+		text-align: left;
+	}
+
+	section .half2 p{
+		text-align: left;
+	}
+
+	section .arrows{
+		margin-left: -15px;
+	}
+
+	section.contato .input-wraper{
+		padding-top: 5px;
+	}
+
+	section .w50{
+		display: inline-block;
+		width: 100%;
+	}
+
+	footer nav{
+		display: none;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer p{
+		float: none;
+	}
+
+	section.venda .side-bar{
+		width: 100%;
+		text-align: center;	
+	}
+
+	section.venda .search1{
+		display: inline-block;
+	}
+
+	section.venda .search2{
+		text-align: left;
+		display: inline-block;
+	}
+
+	section.venda .vitrine-venda{
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 732px){
+	nav.desktop{
+		display: none;
+	}
+
+	nav.mobile{
+		display: block;
+	}
+}
+
+@media screen and (max-width: 580px){
+	section .text-banner{
+		padding: 30px;	
+	}
+	
+	section .text-banner-single{
+		width: 240px;
+		font-size: 20px;
+	}
+
+	section.veiculos-destaques .line-titulo h2{
+		font-size: 23px
+	}
+	
+
+	section.veiculos-destaques .container{
+		max-width: 1000px;
+		padding: 40px 0;
+		text-align: center;
+	}
+
+	section .vitrine-destaques{
+		display: inline-block;
+		float: none;
+		width: 80%;
+		margin-top: 20px;
+	}
+
+	section .vitrine-destaques a{
+		display: inline-block;
+	}
+
+	section.contato .line-titulo h2{
+		font-size: 23px
+	}
+	
+
+}
+
+@media screen and (max-width: 480px){
+	section .vitrine-destaques{
+		width: 10	0%;
+	}
+}

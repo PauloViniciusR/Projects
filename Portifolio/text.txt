@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+			<title>Eduardo Duarte</title>
+	
+	
+	
+		
+			<title>404 | Eduardo Duarte</title>
+	
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<meta name="author" content="Eduardo Duarte">
+	<meta name="keywords" content="Eduardo Duarte, eduardo duarte, desenvolvedor web, projetos web, programador, Programador, programador web, Programador web, PHP, php, HTML, html, CSS, css, JAVA, java, javascript, MYSQL, mysql, website, WEBSITE, Eduardo de Oliveira Duarte, criar sites">
+	<meta name="description" content="Eduardo Duarte desenvolvedor web">
+	<meta name="theme-color" content="#3D8BE9">
+	<link rel="shortcut icon" href="https://eduardoduarte.com.br/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="https://eduardoduarte.com.br/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://eduardoduarte.com.br/css/menu.css">
+	<link rel="stylesheet" type="text/css" href="https://eduardoduarte.com.br/css/especialidades.css">
+				<link rel="stylesheet" type="text/css" href="https://eduardoduarte.com.br/css/fixed.css">
+			<link rel="stylesheet" type="text/css" href="https://eduardoduarte.com.br/css/boot.css">
+	<link rel="stylesheet" type="text/css" href="https://eduardoduarte.com.br/css/load.css">
+	<link rel="stylesheet" type="text/css" href="https://eduardoduarte.com.br/css/all.min.css">
+</head>
+<body>
+
+		
+<section class="load">
+	<i class="fas fa-code"></i>
+</section><!--load-->
+
+
+	<base base="https://eduardoduarte.com.br/" />
+<div class="conteudo">
+<section class="menu">
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h2><a href="https://eduardoduarte.com.br/" title="home" target="_self"><i class="fas fa-code"></i> Eduardo Duarte</a></h2>
+			</div>
+			<nav class="menu-desktop">
+				<ul>
+											<li class="selected">
+							<a href="https://eduardoduarte.com.br/" title="Home" target="_self">Home</a>
+						</li>
+						
+						<li>
+							<a href="https://eduardoduarte.com.br/portfolio" title="Portfólio" target="_self">Portfólio</a>
+						</li>
+						<li>
+							<a href="https://eduardoduarte.com.br/Contato" title="Contato" target="_self">Contato</a>
+						</li>
+					
+					
+					
+						
+
+				</ul>
+			</nav><!--menu-desktop-->
+			<nav class="menu-mobile">
+				<h2><i class="fa fa-bars"></i></h2>
+				<ul>
+										<li class="selected">
+							<a href="https://eduardoduarte.com.br/" title="Home" target="_self">Home</a>
+						</li>
+						
+						<li>
+						<a href="https://eduardoduarte.com.br/portfolio" title="Portfólio" target="_self">Portfólio</a>
+						</li>
+						<li>
+							<a href="https://eduardoduarte.com.br/Contato" title="Contato" target="_self">Contato</a>
+						</li>
+					
+					
+					
+						
+
+				</ul>
+			</nav><!--menu-mobile-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</header><!--header-->
+</section><!--menu-->
+
+		<section class="sobre">
+		<div class="overlaw"></div><!--overlaw-->
+		<div class="container">
+			<h2 id="i0"><i id="icon" class="fas fa-code"></i></h2>
+			<h2 id="i1"><i id="icon" class="fas fa-globe"></i></h2>
+			<h2 id="i2"><i id="icon" class="fab fa-html5"></i></h2>
+			<h2 id="i3"><i id="icon" class="fab fa-css3-alt"></i></h2>
+			<h2 id="i4"><i id="icon" class="fab fa-js-square"></i></h2>
+			<h2 id="i5"><i id="icon" class="fab fa-php"></i></h2>
+			<h2 id="i6"><i id="icon" class="fas fa-server"></i></h2>
+			<h2 id="i7"><i id="icon" class="fas fa-mobile-alt"></i></h2>
+			<h2 id="tp">Eduardo Duarte</h2>
+		</div><!--container-->
+	</section><!--sobre-->
+
+	<section class="tesp">
+		<div class="container">
+			<div class="w100 center">
+				<h2><i class="fas fa-check"></i> Especialidades</h2>
+			</div><!--w100 center-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</section><!--tesp-->
+
+	<section class="esp">
+		<div class="container">
+			<div class="w33 center lp">
+				<div class="esp-single esp-html">
+					<div class="esp-icon">
+						<i class="fab fa-html5"></i>
+					</div><!--esp-icon-->
+					<h2>HTML</h2>
+					<p id="hp">
+					A linguagem de marcação HTML é a ferramenta primaria com qual se constrói o corpo do website.
+					</p>
+					<div class="dl dl-html">
+						<a href="#" onclick="return false;">
+							<button class="espbtn">
+								<i class="fas fa-arrow-alt-circle-down"></i><span class="show" id="show-html"> Mostrar mais</span>
+							</button><!--espbtn-->
+						</a>
+					</div><!--dl-->
+				</div><!--esp-single-->
+			</div><!--w33 center-->
+			<div class="w33 center br">
+				<div class="esp-single esp-css">
+					<div class="esp-icon">
+						<i class="fab fa-css3-alt"></i>
+					</div><!--esp-icon-->
+					<h2>CSS</h2>
+					<p id="cp">
+					Para estilizar o site a linguagem CSS permite que o site possa ficar do seu estilo e também ganhe mais vida.    
+					</p>
+					<div class="dl dl-css">
+						<a href="#" onclick="return false;">
+							<button class="espbtn">
+								<i class="fas fa-arrow-alt-circle-down"></i><span class="show" id="show-css"> Mostrar mais</span>
+							</button><!--espbtn-->
+						</a>
+					</div><!--dl-->
+				</div><!--esp-single-->
+			</div><!--w33 center-->
+			<div class="w33 center">
+				<div class="esp-single li esp-js">
+					<div class="esp-icon">
+						<i class="fab fa-js-square"></i>
+					</div><!--esp-icon-->
+					<h2>Java Script</h2>
+					<p id="jp">
+					Java Script permite que o site fique dinâmico e possa fazer mais dos mais variados tipos de animações e funções.
+					</p>
+					<div class="dl dl-js">
+						<a href="#" onclick="return false;">
+							<button class="espbtn">
+								<i class="fas fa-arrow-alt-circle-down"></i><span class="show" id="show-js"> Mostrar mais</span>
+							</button><!--espbtn-->
+						</a>
+					</div><!--dl-->
+				</div><!--esp-single-->
+			</div><!--w33 center-->
+
+			<div class="w33 center br">
+				<div class="esp-single esp-php">
+					<div class="esp-icon">
+						<i class="fab fa-php"></i>
+					</div><!--esp-icon-->
+					<h2>PHP</h2>
+					<p id="pp">
+						
+Com PHP o site fica dinâmico e amigável além de permitir que ele possa por exemplo mandar e-mails, conectar-se ao banco de dados dentre outros.  
+
+					</p>
+					<div class="dl dl-php">
+						<a href="#" onclick="return false;">
+							<button class="espbtn">
+								<i class="fas fa-arrow-alt-circle-down"></i><span class="show" id="show-php"> Mostrar mais</span>
+							</button><!--espbtn-->
+						</a>
+					</div><!--dl-->
+				</div><!--esp-single-->
+			</div><!--w33 center-->
+			<div class="w33 center br">
+				<div class="esp-single esp-bd">
+					<div class="esp-icon">
+						<i class="fas fa-server"></i>
+					</div><!--esp-icon-->
+					<h2>Banco de Dados</h2>
+					<p id="bp">
+					Com um banco de dados pode-se guardar informações bem como guardar informações do próprio site.
+					</p>
+					<div class="dl dl-bd">
+						<a href="#" onclick="return false;">
+							<button class="espbtn">
+								<i class="fas fa-arrow-alt-circle-down"></i><span class="show" id="show-bd"> Mostrar mais</span>
+							</button><!--espbtn-->
+						</a>
+					</div><!--dl-->
+				</div><!--esp-single-->
+			</div><!--w33 center-->
+			<div class="w33 center li">
+				<div class="esp-single esp-wp">
+					<div class="esp-icon">
+						<i class="fas fa-mobile-alt"></i>
+					</div><!--esp-icon-->
+					<h2>Responsivo</h2>
+					<p id="wp">
+					Ter um site responsivo é de grande importância para que seu site possa ver visualizado por vários dispositivos de diferentes tamanhos de tela.
+					</p>
+					<div class="dl dl-wp">
+						<a href="#" onclick="return false;">
+							<button class="espbtn">
+								<i class="fas fa-arrow-alt-circle-down"></i><span class="show" id="show-wp"> Mostrar mais</span>
+							</button><!--espbtn-->
+						</a>
+					</div><!--dl-->
+				</div><!--esp-single-->
+			</div><!--w33 center-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</section><!--esp-->
+
+	<section class="tserv">
+		<div class="container">
+			<div class="w100 center">
+				<h2><i class="far fa-handshake"></i> Serviços</h2>
+			</div><!--w100 center-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</section><!--tserv-->
+
+	<section class="serv">
+		<div class="container" id="servicos">
+			<div class="w50 center lp">
+				<div class="serv-single">
+					<div class="serv-icon">
+						<i class="fas fa-globe"></i>
+					</div><!--serv-icon-->
+					<h2>Criação de Website</h2>
+					<p>
+					Será desenvolvido um website com várias páginas com efeitos em css e javascript, totalmente responsivo e com o uso de um banco de dados para gravar os e-mails de seus clientes juntamente com o uso de tecnologia para disparo de e-mail pelo próprio site. 
+					</p>
+					<div class="btn-vp">
+					<a href="https://eduardoduarte.com.br/Contato" title="me mande uma menssagem" target="_self"><button><i class="fas fa-envelope-open-text"></i> Envie uma menssagem!</button></a>
+					</div><!--btn-vp-->
+				</div><!--serv-single-->
+			</div><!--w50 center lp-->
+
+			<div class="w50 center ">
+				<div class="serv-single">
+					<div class="serv-icon">
+						<i class="fas fa-home"></i>
+					</div><!--serv-icon-->
+					<h2>Landing page</h2>
+					<p>
+					Será criado uma landing page, uma página simples totalmente responsiva e com uso de banco de dados para guardar e-mails de clientes, além do uso da tecnologia de disparo de e-mail, mesmo sendo uma única página ela pode ser muito poderosa. 
+					</p>
+					<div class="btn-vp">
+						<a href="https://eduardoduarte.com.br/Contato" title="me mande uma menssagem" target="_self"><button><i class="fas fa-envelope-open-text"></i> Envie uma menssagem!</button></a>
+					</div><!--btn-vp-->
+				</div><!--serv-single-->
+			</div><!--w50 center li-->
+
+
+
+
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</section><!--serv-->
+<div class="box-sucesso">
+	<p>Operação bem sucedida!</p>
+</div>
+
+<div class="box-erro">
+	<p>Erro na operação tente mais tarde</p>
+</div>
+
+
+<section class="footer">
+
+	<section class="lista">
+		<div class="container">
+			<div class="w50 center tlista">
+				<h2>Entre em nossa lista: </h2>
+			</div><!--w50 center tlista-->
+			<div class="w50 center flista">
+				<form method='post'>
+					<input type="email" name="listaemail" placeholder="exemplo@mail.com">
+					<input type="submit" name="enviar" value="Enviar">
+				</form>
+			</div><!--w50 center flista-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</section><!--lista-->
+
+	<footer>
+		<div class="container">
+			<div class="w50 center sobre">
+				<h2>Sobre</h2>
+				<p class="left ts">
+				Sou Eduardo Duarte, brasileiro estudante do segundo periodo da Univali (Universidade do Vale do Itajaí), do curso de Ciência da Computação, formado no Instituto Federal Catarinense IFC como Tecnico em Informatica no curso integrado ao ensino médio, trabalho atualmente na empresa <a href="https://havan.com.br" title="Havan" target="_blank" style="text-decoration: underline; color: white;">HAVAN</a>, comecei a programar websites no ano de 2018 e desde lá venho a cada dia mais melhorando meus conhecimentos e habilidades em programação.   
+				</p><!--left ts-->
+			</div><!--w50 center-->
+			<div class="w50 center redesocial">
+				<h2>Redes sociais</h2>
+				<div class="rs-single">
+					<ul class="rb">
+						<li><a href="https://www.linkedin.com/in/eduardo-de-oliveira-duarte-497772205/" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100006243257889" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/eduardoduarte_25/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://github.com/Ed2002" title="Github" target="_blank"><i class="fab fa-github"></i></a></li>
+					</ul><!--rb-->
+				</div><!--rs-single-->
+			</div><!--w50 center-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</footer><!--footer-->
+	<footer class="footer2">
+		<div class="container">
+			<div class="w100 center end">
+				<h2><a href="https://eduardoduarte.com.br/" title="home" target="_self"><i class="fas fa-code"></i> Eduardo Duarte</a></h2>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</footer>
+
+</section><!--footer-->
+
+
+
+	<!--scripts-->
+	<script src="https://scripts.eduardoduarte.com.br/jquery.js"></script>
+	<script src="https://scripts.eduardoduarte.com.br/load.js"></script>
+	<script src="https://scripts.eduardoduarte.com.br/menu.js"></script>
+	<script src="https://scripts.eduardoduarte.com.br/cont.js"></script>
+	<script src="https://scripts.eduardoduarte.com.br/formajax.js"></script>
+	<script src="https://scripts.eduardoduarte.com.br/scroll.js"></script>
+	<script src="https://scripts.eduardoduarte.com.br/.js"></script>
+		<script src="https://scripts.eduardoduarte.com.br/script.js"></script>
+	<script src="https://scripts.eduardoduarte.com.br/esp.js"></script>
+	</div><!--conteudo-->	
+</body>
+</html>

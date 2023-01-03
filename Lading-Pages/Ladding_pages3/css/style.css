@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;    
+}
+
+header{
+    background-color: #a4a1a1;
+    padding: 10px 2% 30px 2%;
+}
+
+.logo1{
+    float: left;
+    width: 160px;
+    height: 70px;
+    background-image: url(../imagens/logo1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo2{
+    float: right;
+    width: 160px;
+    height: 70px;
+    background-image: url(../imagens/logo2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.cover-form{
+    width: 100%;
+}
+
+.bg{
+    height: 500px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imagens/bg-form.jpg);
+}
+
+.form-container{
+    position: absolute;
+    top: -2.5%;
+    right: 30px;
+    width: 400px;
+    height: 105%;
+    box-shadow: 1px 2px 2px 1px rgb(180, 180, 180);
+    background-color: rgb(255, 255, 255);
+}
+
+.form-container h2{
+    font-weight: normal;
+    background-color: rgb(234, 236, 239);
+    padding: 20px 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.form-container form{
+    margin-top: 20x;
+    padding: 15px;
+}
+
+.form-container form p{
+    font-size: 13px;
+    color: #525252;
+}
+
+.form-wraper:not(:first-child){
+    margin-top: 20px;
+}
+
+.form-wraper:last-child{
+    margin-top: 20px;
+}
+
+
+.form-container form input[type=text], 
+input[type=email]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+
+}
+
+.form-container form input[type=button]{
+    background-color: #033C50;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+section.chamada{
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+
+section.chamada div.container{
+    background-color: #2e2f3cbd;
+    padding: 60px 0 5   0px 0;
+}
+
+section.chamada h2{
+    width: 98%;
+    display: inline-block;
+    max-width: 600px;
+    color: white;
+    padding: 35px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+section.chamada p{
+    width: 98%;
+    display: inline-block;
+    max-width: 600px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.flex-mosaico{
+    display: flex;
+}
+
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+  
+
+}
+
+.item-2-mosaico{
+    padding: 60px 40px;
+    width: 40%;
+   
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover{
+    color: #033C50;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .flex-mosaico{
+        display: block;
+    }
+
+    .item-1-mosaico{
+        padding-top: 80%;
+        width: 100%;
+    }
+
+    .item-2-mosaico{
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:950px){
+    .bg{
+        height: auto;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .form-container{
+        height:auto;
+        width: 96%;
+        max-width: 400px;
+        position: static;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 510px){
+    header{
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .logo1,.logo2{
+        margin-top: 10px;
+        display: inline-block;
+        float: none;
+    }
+}

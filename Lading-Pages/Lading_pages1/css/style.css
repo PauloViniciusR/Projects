@@ -1,0 +1,289 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.center{
+   margin: 0 auto;
+   max-width: 1440px;
+
+   
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    width: 100%;
+    padding: 0 2%;
+    height: 60px;
+    background-color: #212343;
+}
+
+.header p{
+    margin: 19px;
+    color: white;
+    
+}
+
+.container-banner{
+    width: 100%;
+    padding: 0 2%;
+    height: 550px;
+    background-image: url(../images/header_bg.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{
+    width: 400px;
+    height: calc(100% + 30px);
+    background-color: white;
+    position: relative;
+    top: -20px;
+    border-color: rgba(120,120,120,0.5);
+    border-width: 13px;
+    padding: 50px 15px;
+    float: right;
+    border-style: solid;
+    background-clip: padding-box;
+
+}
+ 
+h2{ 
+    font-size: 21px;
+    font-weight: normal;
+    color: rgba(91, 82, 82, 0.6);
+   
+}
+
+.input-container{
+    margin-top: 20px;
+   
+}
+
+.input-container span, p{
+    display: inline-block;
+    width: 100%;
+    color: rgba(18, 17, 17, 0.733);
+    font-size: 17px;
+    font-family:Dangrek;
+}
+
+form p{
+    margin: 20px 0;
+}
+
+.input-container input[type=text], input[type=email], input[type=tel]{
+    margin-top: 5px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 10px;
+   
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.campo-obrigatorio p{
+    font-family: OpenSans;
+    color: rgb(179, 176, 176);
+}
+
+.form input[type=submit]{
+    width: 250px;
+    height: 50px;
+    background-color: #363A6D;
+    color: white;
+    display: inline-block;
+    border-radius: 5px 10px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover{
+    background-color: #0d0f38;
+}
+
+.container-list{  
+    padding: 40px;
+    margin-top: 60px;
+    float: left;
+    width: 619px;
+    height: 319px;
+    background-color: rgba(33, 35, 67, 0.332);
+}
+
+.container-list ul{
+   list-style-position: inside;
+}
+
+.container-list ul li{
+    color: white;
+    margin-top: 5px;
+}
+
+.container-2{
+    padding: 40px 2%;
+    background-color: rgba(151, 137, 137, 0.781);
+    text-align: center;
+
+}
+
+.container-2 h2{
+    font-weight: normal;
+    font-family: OpenSans;
+    font-size: 2em;
+    color: #121329;
+
+}
+
+.container-2 p{
+    text-align: justify;
+    width: 100%;
+    max-width: 768px;
+    margin: 15px 0;
+    font-family: OpenSans;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/arrow.png);
+    background-size: 100% 100%;
+}
+
+.section-1{
+    padding: 90px 2%;
+
+}
+
+.section-1 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.3%;
+    padding: 30px 0;
+    margin-right: -4px;
+}
+
+.container-single p{
+    text-align: justify;
+    padding: 10px 25px;
+    font-family: OpenSans;
+}
+
+.container-single img{
+    width: 70px;
+}
+
+.footer{
+    clear: both;
+    padding: 20px 0;
+    border-top: 4px solid #4a4c5f;
+    text-align: center;
+}
+
+.footer p{
+    font-family: OpenSans;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 1074px) {
+   
+    .header{
+        text-align: center;
+    }
+
+    .container-banner{
+        width: 100%;
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+
+    .container-list{
+        padding: 30px 0;
+        float: left;
+        width: 40%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .form{
+        width: 60%;
+        padding: 10px;
+        max-width: 400px;
+        height: 100%;
+        float: right;
+        top: 0;
+
+    }
+
+
+}
+
+@media screen and (max-width: 780px){
+    .container-list{
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
+
+    .container-2{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .form{
+        margin-top: 15px;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .container-single{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        padding: 30px 0;
+        max-width: 600px;
+
+    }
+}
+

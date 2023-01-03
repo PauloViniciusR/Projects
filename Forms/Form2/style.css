@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+html, body{
+    height: 100%;
+    font-family: Poppins;
+    font-size: 15px;
+    
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+   
+
+}
+
+form fieldset{
+    padding: 20px 40px;
+    border: 3px solid rgb(95, 86, 86);
+}
+
+form legend{
+    text-align: left;
+    font-size: 17px;
+    color: hotpink;
+}
+
+form input[type=text], input[type=email]{
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 60%;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+}
+
+form input[type=text]:hover{
+    border: 1px solid red;
+}
+
+form select{
+    margin-top: 30px;
+    padding: 10px;
+    width: 50%;
+    display: inline-block;
+    border-radius: 10px 5px;
+
+}
+
+form h1, h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Bungee Spice;
+}
+
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20 auto;
+
+}
+
+form input[type=button]{
+    margin-top:30px;
+	border:0;
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	border:2px solid rgb(130,130,130);
+	color:white;
+	background-color: rgb(140,140,140);
+}
