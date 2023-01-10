@@ -84,7 +84,7 @@ html,body{
 
 section.descricao{
     position: relative;
-    top:50%;
+    top:60%;
     transform:translateY(-50%);
 }
 
@@ -110,13 +110,23 @@ section.descricao h3{
 }
 
 section.descricao p{
-    color:var(--cor1);
-    font-size:20px;
-    margin-top:40px;
+    color:black;
+    font-size:16px;
+    margin-top:5px;
+}
+
+section.descricao a.links{
+    text-decoration: none;
+    color: rgb(86, 86, 244);
+}
+
+section.descricao a.links:hover{
+    color: #a20f2f;
 }
 
 .icons-social{
-    margin-top:20px;
+    margin-top:30px;
+    margin: 10px;
 }
 
 .icons-social a{
