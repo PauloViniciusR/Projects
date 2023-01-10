@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root{
-    --cor0: #a20f2f;
-    --cor1: #6c757d;
+    --cor0: #141617;
+    --cor1: #5ba367;
 
     --font-title: Poppins;
     --font-text: Ubuntu;
@@ -44,7 +44,7 @@ html,body{
 
 .img-sidebar img{
     width: 80%;
-    border:8px solid #da9caad0;
+    border:6px solid #a9f8b6;
     border-radius: 50%;
 }
 
@@ -69,7 +69,7 @@ html,body{
 }
 
 .menu a:hover{
-    color: rgb(0, 0, 0);
+    color:#bdbdbd;
     opacity: 1;
 }
 
@@ -89,7 +89,7 @@ section.descricao{
 }
 
 section.descricao h2{
-    color:#343a40;
+    color:#626e79;
     font-size: 46px;
     font-family: var(--font-title);
 }
@@ -117,11 +117,11 @@ section.descricao p{
 
 section.descricao a.links{
     text-decoration: none;
-    color: rgb(86, 86, 244);
+    color: #4088CF;
 }
 
 section.descricao a.links:hover{
-    color: #a20f2f;
+    color: #5aa967;
 }
 
 .icons-social{
@@ -132,7 +132,7 @@ section.descricao a.links:hover{
 .icons-social a{
     text-decoration:none;
     color: white;
-    background-color: gray;
+    background-color: rgb(144, 144, 144);
     width:40px;
     height:40px;
     border-radius:20px;
